@@ -1,6 +1,6 @@
 # Humanity+ Web App
 
-A Vite + React + TypeScript refactor of the original single-file Humanity+ landing page. The page keeps the existing dark RPG visual theme, responsive layout, hero content, leaderboard demo, FAQ accordion, contact form UI, social links, and footer.
+A Vite + React + TypeScript Humanity+ landing page.
 
 ## Requirements
 
@@ -28,7 +28,7 @@ The production site is generated in `dist/`.
 
 ## Configure launch links
 
-Copy `.env.example` to `.env.local` and set any values that are available:
+Copy `.env.example` to `.env.local` and set App Store, Play Store and Launch video variables:
 
 ```dotenv
 VITE_APP_STORE_URL=https://apps.apple.com/...
