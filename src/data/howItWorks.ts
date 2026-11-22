@@ -1,0 +1,32 @@
+export const STEPS = [
+  {
+    num: '01',
+    title: 'Do something kind',
+    desc: 'Help a neighbour, donate, volunteer or clean up your street.',
+    bar: 'from-emeraldXp to-teal-400',
+    hexFill: 'rgba(46, 230, 166, 0.14)',
+    hexStroke: 'rgba(46, 230, 166, 0.6)',
+    textCls: 'text-emeraldXp',
+    tag: 'Quest Start',
+  },
+  {
+    num: '02',
+    title: 'Log it in the app',
+    desc: 'Add a short note and a photo. Verified deeds earn points.',
+    bar: 'from-cyanGlow to-royal',
+    hexFill: 'rgba(44, 229, 245, 0.14)',
+    hexStroke: 'rgba(44, 229, 245, 0.6)',
+    textCls: 'text-cyanGlow',
+    tag: 'Verify & Earn',
+  },
+  {
+    num: '03',
+    title: 'Climb together',
+    desc: 'See yourself and your friends move up the board each week.',
+    bar: 'from-goldRank to-amber-500',
+    hexFill: 'rgba(255, 200, 61, 0.14)',
+    hexStroke: 'rgba(255, 200, 61, 0.6)',
+    textCls: 'text-goldRank',
+    tag: 'Rank Up',
+  },
+] as const;
