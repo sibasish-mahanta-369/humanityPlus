@@ -24,7 +24,7 @@ export function HeroSection() {
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-2xl sm:rounded-full bg-royal/20 border border-cyanGlow/40 mb-5 max-w-full shadow-[0_0_20px_rgba(44,229,245,0.14)]">
               <span className="w-2 h-2 rounded-full bg-cyanGlow shadow-[0_0_8px_#2CE5F5]" />
               <span className="font-display font-bold text-[11px] sm:text-xs uppercase tracking-[0.16em] text-cyanGlow">
-                LEVEL UP HUMANITY • Volunteer. Earn. Grow.
+                LEVEL UP HUMANITY • VOLUNTEER • GROW
               </span>
             </div>
 
@@ -33,7 +33,7 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-5 text-base sm:text-lg text-steel max-w-xl leading-relaxed">
-              Log the kind things you do, earn points and watch a whole community move the number together.
+              Volunteer for the Quests, earn XP and make your city better.
             </p>
 
             <StoreButtons onStoreClick={handleStoreClick} message={storeMessage} />

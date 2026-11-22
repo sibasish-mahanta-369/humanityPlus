@@ -20,7 +20,7 @@ export function ImpactCounter() {
       <div className="flex items-center justify-between gap-x-3 gap-y-1 mb-1.5 flex-wrap">
         <span className="inline-flex items-center gap-2 text-[11px] font-display font-bold uppercase tracking-[0.18em] text-cyanGlow">
           <span className="w-2 h-2 rounded-full bg-emeraldXp live-dot shadow-[0_0_8px_#2EE6A6]" />
-          Global Impact XP Counter
+          Global Impact Counter
         </span>
         <span className="text-[11px] font-display font-bold uppercase tracking-wider text-steel tabular-nums">
           Next milestone: {nextMilestone.toLocaleString()} ({milestonePct}%)
@@ -30,7 +30,7 @@ export function ImpactCounter() {
         <strong aria-live="off" className="font-display font-black text-[2rem] min-[380px]:text-4xl sm:text-5xl tracking-tight tabular-nums text-gold-metallic">
           {count.toLocaleString()}
         </strong>
-        <span className="text-sm sm:text-base text-steel font-medium">good deeds logged so far, and counting</span>
+        <span className="text-sm sm:text-base text-steel font-medium">quests logged so far, and counting</span>
       </div>
       <div
         role="progressbar"
