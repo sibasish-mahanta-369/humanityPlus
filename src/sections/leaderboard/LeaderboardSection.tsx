@@ -23,7 +23,7 @@ export function LeaderboardSection() {
           eyebrow="Hero Rankings"
           eyebrowTone="gold"
           title="Community leaderboard"
-          description="Rankings update live as people log deeds. Sample data shown until launch."
+          description="Rankings update live as people log quest completion"
         />
 
         <div className="rpg-card rounded-3xl p-3 sm:p-6">

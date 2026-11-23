@@ -1,9 +1,9 @@
 export const LINKS = {
   appStore: import.meta.env.VITE_APP_STORE_URL || '#',
   playStore: import.meta.env.VITE_PLAY_STORE_URL || '#',
-  instagram: 'https://instagram.com/humanityplus',
-  x: 'https://x.com/humanityplus',
-  email: 'hello@humanityplus.example',
+  instagram: 'https://instagram.com/humanityplusofficial',
+  x: 'https://x.com/humanityplusofficial',
+  email: 'hello.humanityplus@gmail.com',
 } as const;
 
 export const LAUNCH_VIDEO_URL = import.meta.env.VITE_LAUNCH_VIDEO_URL || '';

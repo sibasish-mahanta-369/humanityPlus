@@ -8,8 +8,8 @@ export function HowItWorksSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-5">
         <SectionHeader
           eyebrow="Core Quest Loop"
-          title="Do one thing. Log it. Repeat."
-          description="It takes under a minute, and every deed counts toward the community total."
+          title="Register for a quest. Complete it. Repeat."
+          description="Find quests near you. Complete the quest to gain XP and level-up"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
